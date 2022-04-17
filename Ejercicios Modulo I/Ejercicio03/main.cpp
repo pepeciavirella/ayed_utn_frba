@@ -19,6 +19,6 @@ int main()
         // Ej: 48215 / 100 => 482__ => 482
     mes = (fechaConFormato % 10000) / 100;
     dia = fechaConFormato % 100;
-    cout << "La fecha corresponde al día " << dia << " del mes " << mes << " del año " << agno;
+    cout << "La fecha corresponde al dia " << dia << " del mes " << mes << " del anio " << agno;
     return 0;
 }

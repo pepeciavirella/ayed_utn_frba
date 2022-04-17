@@ -9,15 +9,16 @@ using namespace std;
 
 int main()
 {
-    // Tip: declaramos la variable como "agno" (o "anio") en lugar de "año" porque los identificadores no pueden contener el caracter "ñ"
+    // Tip: Declaramos la variable como "agno" (o "anio") en lugar de "año" porque los identificadores no pueden contener el caracter "ñ"
     int dia, mes, agno;
-    cout << "Ingrese el día" << endl;
+    cout << "Ingrese el dia" << endl;
     cin >> dia;
     cout << "Ingrese el mes" << endl;
     cin >> mes;
-    cout << "Ingrese el año" << endl;
+    // Tip: Imprimimos la cadena como "anio" (en lugar de "año") ya que la consola donde se mostrará podría sólo interpretar caracteres ASCII (como es el caso de Windows)
+    cout << "Ingrese el anio" << endl;
     cin >> agno;
-    long fechaConFormato;
+    int fechaConFormato;
     fechaConFormato = agno * 10000 + mes * 100 + dia;
     cout << "La fecha en formato AAAAMMDD es " << fechaConFormato;
     return 0;
