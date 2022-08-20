@@ -2,3 +2,6 @@
 **/*.layout
 **/bin
 **/obj
+
+# Archivos creados por programas
+Ejercicios\ Archivos/Ejercicio01/floats.bin
